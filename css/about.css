@@ -38,6 +38,14 @@ body {
   backdrop-filter: blur(5px);
   list-style-type: none;
   display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+  animation: showMenu 0.5s linear;
 }
 
 .menu-links {
@@ -50,6 +58,7 @@ body {
   background: linear-gradient(to top right, blue, red, gold, purple, blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  flex-direction: column;
 }
 
 h3.mobile {
