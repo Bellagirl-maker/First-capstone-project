@@ -19,11 +19,11 @@ const featuredSpeakers = document.querySelector('.feature');
 featuredSpeakers.classList.add('featured-speakers');
 document.body.appendChild(featuredSpeakers);
 
-// featured title
-const featuredTitle = document.createElement('h2');
-featuredTitle.classList.add('speakers-title');
-featuredTitle.textContent = 'Featured Speakers';
-featuredSpeakers.appendChild(featuredTitle);
+// // featured title
+// const featuredTitle = document.createElement('h2');
+// featuredTitle.classList.add('speakers-title');
+// featuredTitle.textContent = 'Featured Speakers';
+// featuredSpeakers.appendChild(featuredTitle);
 
 // featured speakers
 const speakers = [
@@ -45,9 +45,9 @@ const speakers = [
 
   {
     id: 3,
-    name: 'Matthew Weber',
+    name: 'Martha Weber',
     position: 'professor',
-    intro: 'Matthew Weber is an associate professor of Communication and a member of Rutgers\'NetSCI Network Science lab.',
+    intro: 'Martha Weber is an associate professor of Communication and a member of Rutgers\'NetSCI Network Science lab.',
     photo: './images/speaker_03.png',
   },
 

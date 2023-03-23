@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 *,
 *::before,
@@ -6,6 +7,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 .navbar {
@@ -13,7 +17,10 @@ body {
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  padding: 1rem;
+}
+
+.navbar a {
+  margin-right: 30%;
 }
 
 .menu-list-mobile > li > a {
@@ -48,7 +55,11 @@ body {
   animation: showMenu 0.5s linear;
 }
 
-.menu-links {
+.desktop-nav {
+  display: none;
+}
+
+.second-dt-nav {
   display: none;
 }
 
@@ -61,13 +72,18 @@ body {
   flex-direction: column;
 }
 
-h3.mobile {
-  align-self: center;
-  text-decoration: none;
+.hamburger {
+  width: 25px;
 }
 
 .about-intro {
   background-image: url(../images/mobile-bg.png);
+  background-position: 100%;
+}
+
+.primary-box {
+  padding-top: 1rem;
+  text-align: center;
 }
 
 .primary-h1 {
@@ -92,6 +108,7 @@ h3.mobile {
 .about__contact {
   background-color: #f7f7f8;
   text-align: center;
+  padding: 5%;
 }
 
 .about__giveaway-section {
@@ -111,12 +128,12 @@ h3.mobile {
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 10%;
   height: 1em;
   color: #a04038;
   border-bottom: 2px solid;
   align-self: center;
-  transform: translateX(40%);
+  transform: translateX(0.5%);
 }
 
 .giveaway-details {
@@ -243,7 +260,7 @@ h3.mobile {
 footer {
   padding: 2rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 1.7rem;
 }
 
@@ -261,4 +278,189 @@ footer {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: max-content;
+}
+
+@media screen and (min-width: 768px) {
+  #menu-icon {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #3e3e3e;
+  }
+
+  .first-menu {
+    padding: 0.3rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .first-menu-list {
+    display: flex;
+    width: 80%;
+    gap: 1rem;
+    list-style: none;
+    justify-content: flex-end;
+  }
+
+  .menu-item a {
+    color: #272a31;
+  }
+
+  .list-item a {
+    color: white;
+  }
+
+  .list-item a:hover {
+    cursor: pointer;
+  }
+
+  .social {
+    width: 12px;
+  }
+
+  .second-dt-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 5%;
+  }
+
+  .second-menu-div {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+  }
+
+  .second-menu-list {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 1.5rem 0;
+    list-style: none;
+  }
+
+  .menu-item-brand {
+    display: flex;
+    padding-top: 1rem;
+  }
+
+  .brand {
+    justify-self: center;
+    margin-left: auto;
+    font-weight: 900;
+    font-size: 1.7rem;
+    background: linear-gradient(to top right, blue, red, gold, purple, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .menu-item a:hover {
+    cursor: pointer;
+    color: #f07f7e;
+  }
+
+  .get-ticket {
+    border: 4px solid#f07f7e;
+    padding: 0.5rem;
+  }
+
+  .primary-box {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .primary-intro {
+    font-size: 2.5rem;
+  }
+
+  .primary-h1 {
+    font-size: 4rem;
+  }
+
+  .secondary-text {
+    width: 80%;
+    font-weight: 700;
+    margin: 0 auto;
+  }
+
+  .break-at {
+    display: block;
+  }
+
+  .giveaway-details {
+    width: 50%;
+    line-height: 1.5rem;
+  }
+
+  .fodera-box {
+    height: 10rem;
+    width: 40%;
+    margin-top: 2rem;
+  }
+
+  .about__past-conferences-section {
+    margin-top: 1rem;
+  }
+
+  .past-conf-p {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+
+  .event-boxes {
+    display: flex;
+    width: var(--container-desktop);
+    margin: 0 auto;
+    gap: 2rem;
+  }
+
+  .event-text {
+    transition: all 0.3s linear;
+  }
+
+  .event-text:hover {
+    background-color: rgba(255, 0, 0, 0);
+    cursor: pointer;
+  }
+
+  .partners-images {
+    margin: 0 auto;
+  }
+
+  .about__partners-section {
+    display: none;
+  }
+
+  .about-footer {
+    margin-top: 6rem;
+    width: 100%;
+    background-color: #2e2e2e;
+    padding: 4rem 0 4rem 15%;
+    padding-right: 15%;
+  }
+
+  .about-footer * {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 1173px) {
+  .program-li {
+    height: 12rem;
+  }
+
+  .about__sec-text {
+    width: 60%;
+  }
 }

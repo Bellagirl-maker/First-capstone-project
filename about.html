@@ -6,12 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About MuziQ </title>
     <link rel="stylesheet" href="./css/about.css">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,28 +15,67 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar">
-        <nav id="menu-icon">
-          <a href="#"></a><i class="fa fa-bars" aria-hidden="true"></i></a>
+    <header>
+        <nav class="navbar">
+          <nav id="menu-icon">
+            <a href="#"></a><img src="./images/mobile_menu 1.png" class="hamburger" alt="hamburger-icon"></a>
+          </nav>
+          <a href="/"><h3 class="mobile">MuziQ</h3></a>
         </nav>
-        <a href="/"><h3 class="mobile">MuziQ</h3></a>
-            <ul class="menu-links" > 
-                <li ><a class="menu-item" href="about.html">About</a></li><br>
-                <li ><a class="menu-item" href="catalogue">catalogue</a></li><br>
-                <li ><a class="menu-item" href="contact">Contact</a></li><br>
-            </ul>
-            <nav class="mobile-nav">
-              <a href=""><span class="close-button">&#10006;</span></a> 
-               <ul class="menu-list-mobile" >
-                <li ><a class="menu-item" href="about.html">About</a></li><br>
-                <li ><a class="menu-item" href="catalogue">catalogue</a></li><br>
-                <li ><a class="menu-item" href="contact">Contact</a></li><br>
-               </ul>
+          <nav class="desktop-nav">
+                <div class="first-menu">
+                    <ul class="first-menu-list">
+                        <li class="list-item">
+                            <a href="#"><img src="./images/facebook.png"  class="social" alt="facebook"></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#"><img src="./images/twitter.png" class="social" alt="twitter"></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">English</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">My Page</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div></nav>
+                <nav class="second-dt-nav">
+                <div class="second-menu-div">
+                    <div class="menu-item-brand">
+                        <a href="./index.html" class="brand">MuziQ</span></a>
+                    </div>
+                    <ul class="second-menu-list">
+                        <li class="menu-item">
+                            <a href="./index.html#main-program">Program</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="./index.html#speakers">Speakers</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="./about.html">About</a>
+                        </li>
+                        <li class="menu-item get-ticket">
+                            <a href="#">Get Ticket</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
-        </nav>
+            <nav class="mobile-nav">
+                <a href=""><span class="close-button">&#10006;</span></a> 
+                 <ul class="menu-list-mobile" >
+                  <li ><a class="menu-item" href="./index.html#main">Program</a></li><br>
+                  <li ><a class="menu-item" href="./index.html#feature">Speakers</a></li><br>
+                  <li ><a class="menu-item" href="about.html">About</a></li><br>
+                  <li ><a class="menu-item" href="#">Get ticket</a></li>
+                 </ul>
+              </nav>
+        </header>
         <section class="about-intro">
         <div class="primary-box">
-            <h1 class="primary-h1">Worldwide Music Concert <br> 2023</h1>
+            <h1 class="primary-h1">Worldwide Musical <br> Concert by 2023</h1>
         </div>
         <p class="secondary-text">
             MuziQ Global Concert brings together the community of experts, creators
@@ -69,7 +102,7 @@
 
     <section class="about__past-conferences-section">
         <h2 class="section-header about__past-conf-section-header">Past Concerts</h2>
-        <p class="past-conf-p">Take a look at the last two music concerst which took place in Addis Ababa, Ethiopia, and in Las Vegas, USA. </p>
+        <p class="past-conf-p">Take a look at the last two music concerst which took place in Paris, France, and in Las Vegas, USA. </p>
 
         <div class="event-boxes">
             <div class="event-box">
