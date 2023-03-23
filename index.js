@@ -19,12 +19,6 @@ const featuredSpeakers = document.querySelector('.feature');
 featuredSpeakers.classList.add('featured-speakers');
 document.body.appendChild(featuredSpeakers);
 
-// // featured title
-// const featuredTitle = document.createElement('h2');
-// featuredTitle.classList.add('speakers-title');
-// featuredTitle.textContent = 'Featured Speakers';
-// featuredSpeakers.appendChild(featuredTitle);
-
 // featured speakers
 const speakers = [
   {
