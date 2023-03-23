@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Project: Mobile Menu] <a name="about-project"></a>
+# 📖 [First Capstone Project] <a name="about-project"></a>
 
 This project is my First capstone project
 
@@ -53,7 +53,7 @@ The website was tested on the following accessibility requirements: Title, Image
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- [Live Demo Link](https://bellagirl-maker.github.io/Portfolio/)
+ [Live Demo Link](https://bellagirl-maker.github.io/First-capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
