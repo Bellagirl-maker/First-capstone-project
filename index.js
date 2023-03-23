@@ -114,8 +114,6 @@ speakerButton.appendChild(speakerBtnIcon);
 speakerContainer.appendChild(SpeakerbuttonDiv);
 SpeakerbuttonDiv.appendChild(speakerButton);
 
-// mobile menu :
-// const humburger = document.querySelector('.hamburger');
 
 // more speakers button event listener:
 const moreSpeakers = document.querySelector('.speakerBtn');
