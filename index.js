@@ -114,7 +114,6 @@ speakerButton.appendChild(speakerBtnIcon);
 speakerContainer.appendChild(SpeakerbuttonDiv);
 SpeakerbuttonDiv.appendChild(speakerButton);
 
-
 // more speakers button event listener:
 const moreSpeakers = document.querySelector('.speakerBtn');
 const arraySpeakers = [
