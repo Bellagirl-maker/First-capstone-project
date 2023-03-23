@@ -93,10 +93,6 @@ Use this project in the browsers of mobile phones and desktops
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Run tests
-
-npm run test
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Deployment
