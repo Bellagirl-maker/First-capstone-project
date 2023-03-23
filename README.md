@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [First Capstone Project] <a name="about-project"></a>
+# 📖 [First Capstone Project -A musical concertt] <a name="about-project"></a>
 
 This project is my First capstone project
 
@@ -138,7 +138,7 @@ If you like this project give me 5 stars ⭐️⭐️⭐️⭐️⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for the opportunity to create this project and all my team mates who supported me
+I would like to give credit to Cindy Shin the author of the original design as required by Creative Commons License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
