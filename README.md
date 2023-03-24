@@ -138,7 +138,7 @@ If you like this project give me 5 stars ⭐️⭐️⭐️⭐️⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to give credit to Cindy Shin the author of the original design as required by Creative Commons License.
+I would like to give credit to Cindy Shin the author of the original design of Creative Commons License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
