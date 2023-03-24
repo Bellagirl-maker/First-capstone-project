@@ -17,7 +17,6 @@ closeMenu();
 // featured speakers section
 const featuredSpeakers = document.querySelector('.feature');
 featuredSpeakers.classList.add('featured-speakers');
-document.body.appendChild(featuredSpeakers);
 
 // featured speakers
 const speakers = [
