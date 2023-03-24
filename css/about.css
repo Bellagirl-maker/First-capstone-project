@@ -179,7 +179,7 @@ body {
 }
 
 .event-box {
-  background-image: url(images/conf1.jpg);
+  background-image: url(../images/event1.jpg);
   background-repeat: no-repeat;
   width: 100%;
   height: 40vh;
@@ -192,7 +192,7 @@ body {
 }
 
 .event-box:last-child {
-  background-image: url(images/conf2.jpg);
+  background-image: url(../images/event2.jpg);
 }
 
 .event-text {
