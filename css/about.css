@@ -101,7 +101,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: #515151;
-  padding: 5%;
+  padding: 2.5rem;
   background-color: #fff;
 }
 
@@ -299,6 +299,7 @@ footer {
     padding: 0.3rem;
     display: flex;
     justify-content: flex-end;
+    margin-right: 8rem;
   }
 
   .first-menu-list {
@@ -322,7 +323,7 @@ footer {
   }
 
   .social {
-    width: 12px;
+    width: 14px;
   }
 
   .second-dt-nav {
@@ -342,16 +343,18 @@ footer {
   .second-menu-list {
     display: flex;
     width: 80%;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    gap: 4rem;
+    gap: 5rem;
     padding: 1.5rem 0;
     list-style: none;
+    margin-right: 8rem;
   }
 
   .menu-item-brand {
     display: flex;
     padding-top: 1rem;
+    margin-left: 12rem;
   }
 
   .brand {
@@ -385,6 +388,8 @@ footer {
 
   .primary-h1 {
     font-size: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
   }
 
   .secondary-text {
@@ -420,8 +425,8 @@ footer {
 
   .event-boxes {
     display: flex;
-    width: var(--container-desktop);
-    margin: 0 auto;
+    width: 65%;
+    margin: auto;
     gap: 2rem;
   }
 

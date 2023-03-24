@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [First Capstone Project -A musical concertt] <a name="about-project"></a>
+# 📖 [First Capstone Project about A musical concert] <a name="about-project"></a>
 
 This project is my First capstone project
 
@@ -53,7 +53,7 @@ The website was tested on the following accessibility requirements: Title, Image
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- [Live Demo Link](https://bellagirl-maker.github.io/First-capstone-project/)
+ [Live Demo Link](https://www.loom.com/share/ba47dbd3d3624b328cdee21723fc69f4)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,6 +152,6 @@ I would like to give credit to Cindy Shin the author of the original design as r
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

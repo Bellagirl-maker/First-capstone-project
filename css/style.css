@@ -89,6 +89,12 @@ body {
   background-position: 100%;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .primary-intro {
   font-size: 2rem;
   font-weight: 400;
@@ -270,8 +276,6 @@ body {
 }
 
 .speaker-img {
-  padding-left: 10px;
-  padding-top: 15px;
   align-self: flex-start;
   width: 100%;
 }
@@ -287,6 +291,7 @@ body {
 .speaker-name {
   font-size: 20px;
   font-weight: 600;
+  margin-top: 12px;
 }
 
 .speaker-position {
@@ -295,6 +300,10 @@ body {
   font-weight: 700;
   color: #ec5242;
   font-style: italic;
+}
+
+.speaker-intro {
+  font-size: 14px;
 }
 
 .underline2 {
@@ -360,6 +369,7 @@ body {
     padding: 0.3rem;
     display: flex;
     justify-content: flex-end;
+    margin-right: 8rem;
   }
 
   .first-menu-list {
@@ -383,7 +393,7 @@ body {
   }
 
   .social {
-    width: 12px;
+    width: 14px;
   }
 
   .second-dt-nav {
@@ -403,11 +413,12 @@ body {
   .second-menu-list {
     display: flex;
     width: 80%;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    gap: 4rem;
+    gap: 5rem;
     padding: 1.5rem 0;
     list-style: none;
+    margin-right: 8rem;
   }
 
   .brand {
@@ -422,7 +433,8 @@ body {
 
   .menu-item-brand {
     display: flex;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+    margin-left: 12rem;
   }
 
   .menu-item a:hover {
@@ -441,13 +453,12 @@ body {
     */
 
   .hero-container {
-    align-items: center;
+    align-items: flex-start;
   }
 
   .intro {
     width: 80%;
     margin: 0 auto;
-    padding: 5%;
   }
 
   .primary-intro {
@@ -455,7 +466,7 @@ body {
   }
 
   .intro h1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .sub-theme {
@@ -464,13 +475,12 @@ body {
     margin: auto;
   }
 
-  /* .break-at {
-    display: block;
-  } */
-
   .date-box {
     width: 80%;
     margin: auto;
+    align-items: start;
+    margin-left: 12rem;
+    padding-bottom: 4%;
   }
 
   /*
@@ -497,6 +507,10 @@ body {
     justify-content: center;
     gap: 1rem;
     height: 16rem;
+  }
+
+  .program-li:hover {
+    border: 1px solid #fff;
   }
 
   .program-li > * {
@@ -532,6 +546,7 @@ body {
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     align-content: center;
+    gap: 20px;
   }
 
   .speakerBtn {
@@ -606,7 +621,7 @@ body {
   .home-footer,
   footer {
     display: flex;
-    width: 80%;
+    width: 35%;
     margin: 0 auto;
     justify-content: space-between;
     padding: 4rem 1rem;
@@ -614,7 +629,7 @@ body {
 
   .site-name-footer {
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 1.5rem;
     background: linear-gradient(to top right, blue, red, orange, purple, blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -623,6 +638,6 @@ body {
 
   .year-and-rights {
     display: flex;
-    gap: 0.1rem;
+    flex-direction: column;
   }
 }

@@ -97,7 +97,7 @@ speakers.forEach((speaker) => {
     speaker.intro,
     speaker.photo,
   );
-    // myWorksSection.insertAdjacentHTML('afterend',htmlAdd);
+
   speakerContainer.innerHTML += htmlAdd;
 });
 
